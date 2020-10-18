@@ -1,0 +1,65 @@
+#container{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.loading{
+    display: none;
+}
+label{
+    display: inline-block;
+}
+h4{
+    display: inline-block;
+    align-items: right;
+    margin-right: 60px;
+}
+.label{
+    background-color: yellow; 
+    border-radius: 5px; 
+    font-size: medium; 
+    font-weight: 700; 
+    padding: 2px; 
+    border: solid 1px transparent;
+}
+#authorlabel{
+    background-color: red;
+}
+#namelabel{
+    background-color: green;
+}
+.showItem{
+    display: block;
+}
+.fail {
+    border-color: red;
+  }
+  .complete {
+    border-color: green;
+  }
+/* .feedback {
+    display: none;
+    
+  } */
+  
+#img-container{
+    width: 250px; 
+    height: 400px; 
+    border: 1px solid gainsboro; 
+    text-align: justify;
+float: left;
+margin-right: 70px;
+}
+.submit:hover{
+    background-color: chocolate;
+}
+.student-list{
+    display
+}
+
+/* .custt-name{
+    background-color: green;
+}
+.author-name{
+    background-color: red;
+} */

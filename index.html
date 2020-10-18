@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>courseform</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="container" style="align-content: center; margin-top: 100px; width: 95%">
+        <div class="feedback" style="padding: 5px;"></div>
+        <form id="course-form">
+            <div>
+                <span id="cust-name"><i class="fa fa-user"
+                        style="background-color: chocolate; color: white; padding: 8px; padding-bottom: 10px;"></i><span><input
+                            class="name" type="text" placeholder="Student name" id="name"
+                            style="padding: 7px; width: 50%"></span></span>
+            </div><br>
+
+            <div>
+                <span id="coursery"><i class="fa fa-book"
+                        style="background-color: chocolate; color: white; padding: 8px; padding-bottom: 10px;"></i><span><input
+                            class="course" type="text" placeholder="Course" id="course"
+                            style="padding: 7px; width: 50%"></span></span>
+            </div><br>
+
+            <div>
+                <span id="authority"><i class="fa fa-user-circle"
+                        style="background-color: chocolate; color: white; padding: 8px; padding-bottom: 10px;"></i><span><input
+                            class="author" type="text" placeholder="Author" id="author"
+                            style="padding: 7px; width: 50%"></span></span>
+            </div><br>
+
+            <button type="submit" class="submit" style="padding: 7px; width: 54%">SUBMIT</button><br><br>
+        </form>
+
+        <div class="loading">
+            <img src="imgs/loading.gif">
+        </div>
+
+        <div class="student-list" style="width: 100%;">
+            <div id="img-container">
+                <img src="imgs/cust-0.jpg" class="cust-img">
+                <span class="card-body" style="line-height: 1px;">
+                    <h4 class="students"><span class="label" id="namelabel">Name:</span><span id="student-name"> John
+                            Anderson</span></h4>
+
+                    <h4 class="courses"><span class="label">Course:</span><span id="course-offer">
+                            Agriculture</span></h4>
+
+                    <h4 class="authors"><span class="label" id="authorlabel">Author:</span><span id="author-name"> J. O Atteh</span></h4>
+
+                </span>
+            </div>
+        </div>
+
+        <script src="scripts/course.js"></script>
+</body>
+
+</html>
+
+
+<!-- <label for="name"
+                    style="background-color: green; border-radius: 5px; font-size: medium; font-weight: 700; padding: 8px; border: solid 1px transparent;">Name:</label>
+                <h4 class="cust-name">John Anderson</h4>
+
+
+                <label for="course"
+                    style="background-color: yellow; border-radius: 5px; font-size: medium; font-weight: 700;padding: 8px; border: solid 1px transparent;">Course:</label>
+                <h4 class="courses">Agriculture</h4>
+
+                <label for="author"
+                    style="background-color: red; border-radius: 5px; font-size: medium; font-weight: 700;padding: 8px; border: solid 1px transparent;">Author:</label>
+                <h4 class="author" style="margin-left: 20px;">J. O. Atteh</h4> -->
